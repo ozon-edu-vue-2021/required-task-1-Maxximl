@@ -55,7 +55,7 @@ main {
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 6px;
-    margin: 10px 0;
+    margin: 0 auto;
 }
 
 .action:hover {
@@ -126,14 +126,14 @@ figcaption {
     bottom: 0;
     right: 0;
     background-color: rgba(33, 33, 33, 0.5);
-    z-index: -1;
+    z-index: 999;
 }
 
 .popup.open {
     visibility: visible;
 }
 
-.action {
+.close {
     position: absolute;
     top: 50px;
     right: 50px;
